@@ -1,0 +1,56 @@
+:root
+{
+    --color-headline: white;
+    --color-text: hsl(0, 0%, 17%);
+    --color-titles: hsl(0, 0%, 59%);
+}
+
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 62.5%;
+}
+
+body
+{
+
+}
+
+header
+{
+    background-image: url(./assets/images/pattern-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+
+    text-align: center;
+}
+
+.title
+{
+    color: var(--color-headline);
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.search
+{
+    border: none;
+    border-radius: 10px;
+}
+
+.search:focus
+{
+    outline: none;
+}
